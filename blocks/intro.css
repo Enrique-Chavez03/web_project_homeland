@@ -1,0 +1,27 @@
+.intro {
+  margin-bottom: 64px;
+}
+
+.intro__title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.intro__quote {
+  font-size: 14px;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+
+.intro__author {
+  font-size: 13px;
+  color: var(--muted);
+  text-align: right;
+  margin-bottom: 24px;
+}
+
+.intro__text {
+  font-size: 14px;
+  color: var(--muted);
+}

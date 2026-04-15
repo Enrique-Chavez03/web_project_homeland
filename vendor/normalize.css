@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #2a2c2f;
+  --text: #ffffff;
+  --muted: #aaaaaa;
+
+  --max-width-desktop: 984px;
+}
