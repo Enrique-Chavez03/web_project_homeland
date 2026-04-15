@@ -17,107 +17,9 @@
   --max-width-desktop: 984px;
 }
 
-.page {
-  font-family: system-ui, -apple-system, sans-serif;
-  background-color: var(--bg);
-  color: var(--text);
-  line-height: 1.5;
-  padding: 16px;
-}
-
-.header {
-  margin-bottom: 48px;
-}
-
-.header__logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.header__logo-image {
-  width: 28px;
-  height: 28px;
-}
-
-.header__logo-text {
-  font-size: 10px;
-  letter-spacing: 1.2px;
-  color: var(--muted);
-}
-
-.lead {
-  text-align: center;
-  margin-bottom: 64px;
-}
-
-.lead__title {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  margin-bottom: 32px;
-}
-
-.lead__title-accent {
-  font-size: 32px;
-  font-weight: 700;
-}
-
-.lead__title-subtitle {
-  font-size: 16px;
-  color: var(--muted);
-}
-
-.lead__image {
-  width: 100%;
-  display: block;
-}
-
-.intro {
-  margin-bottom: 64px;
-}
-
-.intro__title {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-.intro__quote {
-  font-size: 14px;
-  color: var(--muted);
-  margin-bottom: 10px;
-}
-
-.intro__author {
-  font-size: 13px;
-  color: var(--muted);
-  text-align: right;
-  margin-bottom: 24px;
-}
-
-.intro__text {
-  font-size: 14px;
-  color: var(--muted);
-}
-
-.footer {
-  text-align: center;
-}
-
-.footer__copyright {
-  font-size: 12px;
-  color: var(--muted);
-}
-
 @media (min-width: 768px) {
   .page {
     padding: 24px;
-  }
-
-  .header {
-    max-width: 720px;
-    margin: 0 auto 56px;
   }
 
   .lead {
@@ -162,11 +64,6 @@
 @media (min-width: 1280px) {
   .page {
     padding: 32px;
-  }
-
-  .header {
-    max-width: var(--max-width-desktop);
-    margin: 0 auto 64px;
   }
 
   .lead {
