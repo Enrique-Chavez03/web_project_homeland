@@ -1,9 +1,0 @@
-.page {
-  max-width: 1280px;
-  margin: 0 auto;
-  font-family: system-ui, -apple-system, sans-serif;
-  background-color: var(--bg);
-  color: var(--text);
-  line-height: 1.5;
-  padding: 16px;
- }
