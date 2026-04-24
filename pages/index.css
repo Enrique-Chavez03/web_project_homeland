@@ -1,8 +1,10 @@
-@import url("../vendor/normalize.css"); /* PRIMERO - normalize.css */
-@import url("../blocks/page.css");      /* Después - tus bloques */
-@import url("../blocks/header.css");
-@import url("../blocks/footer.css");
-@import url("../blocks/content.css");
-@import url("../blocks/intro.css");
-@import url("../blocks/lead.css");
-@import url("../blocks/nav.css");
+@import url(../vendor/normalize.css);
+@import url(../blocks/header.css);
+@import url(../blocks/lead.css);
+@import url("../blocks/page.css");
+@import url(../blocks/intro.css);
+@import url(../blocks/photo-grid.css);
+@import url(../blocks/places.css);
+@import url(../blocks/place.css);
+@import url(../blocks/botton.css);
+@import url(../blocks/footer.css);

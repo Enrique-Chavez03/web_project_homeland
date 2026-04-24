@@ -1,27 +1,40 @@
 .intro {
-  margin-bottom: 64px;
+  max-width: 830px;
+  margin: 92px auto 0;
+  padding: 0 16px;
 }
 
 .intro__title {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 20px;
+  font-family: 'Inter', sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.1;
 }
 
 .intro__quote {
-  font-size: 14px;
-  color: var(--muted);
-  margin-bottom: 10px;
+  font-size: 22px;
+  line-height: 1.4;
+  margin-top: 40px;
 }
 
 .intro__author {
-  font-size: 13px;
-  color: var(--muted);
-  text-align: right;
-  margin-bottom: 24px;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-top: 10px;
 }
 
 .intro__text {
-  font-size: 14px;
-  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 32px;
+}
+
+@media (max-width: 768px) {
+  .intro__title {
+    font-size: 32px;
+  }
+
+  .intro__quote {
+    font-size: 18px;
+  }
 }

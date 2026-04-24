@@ -1,0 +1,54 @@
+.place {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px 40px;
+}
+
+.place__tittle {
+  font-family: 'Inter', sans-serif;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 1.05;
+  margin: 0;
+}
+
+.place__artist {
+  align-self: end;
+}
+
+.place__label {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.place img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.place__text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.place__text p {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.place__text p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .place {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .place__tittle {
+    font-size: 42px;
+  }
+}
